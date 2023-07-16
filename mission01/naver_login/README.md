@@ -20,21 +20,17 @@
 
 **1. email / pw 정규표현식을 사용한 validation**
 
-<br>
-
 ![Result 1](assets/result-1.png)
 
+<br>
 
 **2. 상태 변수 관리 (상태 변수 확인을 통해 형식 확인 알림 메세지 출력)**
 
-<br>
-
 ![Result 2](assets/result-2.png)
 
+<br>
 
 **3. 로그인 버튼을 클릭시 조건처리 (아이디 및 비밀번호 재확인 알림 메세지 출력)**
-
-<br>
 
 ![Result 3](assets/result-3.png)
 
