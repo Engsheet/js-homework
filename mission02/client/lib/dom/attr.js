@@ -63,6 +63,8 @@
 
 // attr()
 
+import { getNode } from "./getNode.js";
+
 function getAttr(node, prop) {
   // 0. 넘어온 대상이 문자인지를 체크
   // 1. 체크 후 element node 로 변경해 줘야함.!
@@ -107,7 +109,7 @@ const arrowAttr = (node, prop, value) =>
 
 
 
-function attr(node, prop, value) {
+export function attr(node, prop, value) {
   // if(!value){
   //   return getAttr(node,prop);
   // }else{
